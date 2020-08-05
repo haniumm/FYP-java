@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Menu"
+            android:title="Menu"
+            android:icon="@drawable/ic_baseline_home_24" />
+
+
+    </group>
+<item android:title="communicate">
+    <menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_Feedback"
+                android:title="Feebdack"
+                android:icon="@drawable/feedback" />
+            <item
+                android:id="@+id/nav_Contact"
+                android:title="Contact_Us"
+                android:icon="@drawable/contacts" />
+            <item
+                android:id="@+id/nav_About"
+                android:title="About_Us"
+                android:icon="@drawable/ic_baseline_android_24" />
+        </group>
+    </menu>
+</item>
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_Books_details"
+                    android:title="Books_details"
+                    android:icon="@drawable/ic_launcher_background"  />
+
+                <item
+                    android:id="@+id/nav_log_out"
+                    android:title="logOut"
+                    android:icon="@drawable/log_in_out" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

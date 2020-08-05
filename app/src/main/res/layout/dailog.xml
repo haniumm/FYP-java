@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:padding="20dp"
+android:background="@color/colorPrimary">
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    app:cardElevation="10dp"-->
+
+
+
+<!--    -->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_margin="20dp"-->
+
+<!--        android:background="#009688"-->
+<!--        android:orientation="vertical">-->
+<TextView
+    android:id="@+id/Login"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:layout_alignParentTop="true"
+android:layout_centerHorizontal="true"
+    android:text="Login"
+    android:textColor="#fff"
+    android:textSize="40sp"
+
+    >
+
+</TextView>
+<EditText
+    android:id="@+id/edUser_ID"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/Login"
+    android:hint="User_ID"
+    android:textColorHint="#fff"
+    android:textAlignment="center"
+android:textColor="#fff"
+    android:layout_marginTop="50dp"
+    >
+
+</EditText>
+
+
+    <EditText
+        android:id="@+id/edPassword_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edUser_ID"
+        android:hint="Password"
+        android:textColorHint="#fff"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:layout_marginTop="50dp"
+        android:inputType="textPassword"
+        >
+
+    </EditText>
+
+
+    <Button
+        android:id="@+id/btn_Close"
+        android:layout_width="100dp"
+        android:layout_height="78dp"
+        android:layout_below="@+id/edPassword_ID"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="24dp"
+        android:text="Close">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="100dp"
+        android:layout_height="78dp"
+        android:layout_below="@+id/edPassword_ID"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="41dp"
+
+        android:text="Login">
+
+    </Button>
+</RelativeLayout>
